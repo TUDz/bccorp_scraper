@@ -4,3 +4,4 @@ venv/
 *.crt
 __pycache__/
 .ipynb_checkpoints
+*.log

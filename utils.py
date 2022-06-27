@@ -25,8 +25,13 @@ PROXY_PORT = "8011"
 PROXY_AUTH = f'{os.getenv("ZYTE_KEY")}:' # Make sure to include ':' at the end
 
 PROXIES = {"https": "http://{}@{}:{}/".format(PROXY_AUTH, PROXY_HOST, PROXY_PORT),
-      "http": "http://{}@{}:{}/".format(PROXY_AUTH, PROXY_HOST, PROXY_PORT)}
+           "http": "http://{}@{}:{}/".format(PROXY_AUTH, PROXY_HOST, PROXY_PORT)}
 
+### Get your own zyte certificate at https://www.zyte.com
 VERIFY_PATH = './zyte-smartproxy-ca.crt' ## Already added to .gitignore :P 
 
-COLUMN_NAMES = ["name", "headquarters", "certified_since", "industry", "website"]
+COLUMN_NAMES = ["name", 
+                "headquarters", 
+                "certified_since", 
+                "industry", 
+                "website"]
