@@ -5,5 +5,8 @@ This scraper is based in the next [UpWork project requirement](https://www.upwor
 ## Technologies used:
 * Python
 * Requests module
+* Logging module
 * Zyte proxy manager
 * pandas
+
+![Alt text](./img/result.png "Result preview")
