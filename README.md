@@ -10,10 +10,11 @@ This scraper is based in the next [UpWork project requirement](https://www.upwor
 * pandas
 
 ## How to run:
-1. git clone https://github.com/TUDz/bccorp_scraper.git
-2. python3 -m venv venv (Generate a virtual environment)
-3. source ven/bin/activate (Activate virtual environment)
-4. python3 -m pip install -r requirements.txt (Install dependencies)
+1. git clone https://github.com/TUDz/bccorp_scraper.git 
+2. cd bccorp_scraper
+3. python3 -m venv venv (Generate a virtual environment)
+4. source ven/bin/activate (Activate virtual environment)
+5. python3 -m pip install -r requirements.txt (Install dependencies)
 
 * **You should Configure ZYTE_KEY and Zyte Smart proxy Certificate in utils.py**. More info in [Zyte Smart proxy manager](https://www.zyte.com/smart-proxy-manager/)
 
